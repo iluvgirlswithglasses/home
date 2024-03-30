@@ -29,7 +29,6 @@ alias cin="cat";
 alias q="exit";
 alias :q="exit";
 alias clip="xsel --clipboard";
-alias shutdown="shutdown 0";
 
 
 #######################################################################
