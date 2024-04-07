@@ -15,7 +15,7 @@ export QT_IM_MODULE=ibus
 #### ---------------------- greeting scene ---------------------- ####
 ######################################################################
 
-neofetch;
+macchina-linux-x86_64;
 printf "that's that, and this is this\n";
 
 

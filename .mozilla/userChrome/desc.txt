@@ -1,0 +1,19 @@
+-- about:config
+toolkit.legacyUserProfileCustomizations.stylesheets true
+layout.css.moz-document.content.enabled             true
+extensions.langpacks.signatures.required            false
+xpinstall.signatures.required                       false
+
+-- loc
+~/.mozilla/firefox/
+C:\Users\luuna\AppData\Roaming\Mozilla\Firefox\Profiles
+
+-- ref
+https://support.mozilla.org/en-US/questions/1287312
+
+-- how to use
+copy ./chrome to the firefox program files
+
+-- for ricers
+for firefox to behave in KDE systems, you may need gtk3-nocsd
+
