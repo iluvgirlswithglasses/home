@@ -50,6 +50,8 @@ tiling_drag modifier titlebar
 bindsym $mod+Return exec kitty
 bindsym $mod+w exec firefox
 bindsym $mod+Shift+w exec /home/mika/r/appimg/waterfox/waterfox
+bindsym $mod+Shift+s exec --no-startup-id flameshot gui
+bindsym Shift+Print exec --no-startup-id flameshot full
 
 # kill focused window
 bindsym $mod+q kill
