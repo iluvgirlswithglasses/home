@@ -1,7 +1,9 @@
 
 # My dotfiles
 
-This is my very simple i3wm dotfiles, focusing on the arrangement of colors rather than my formerly "riced-af" awesomewm. It is hard coded for dual monitors, so please edit `./profile` and `./.config/i3/config` before applying this dotfiles on other systems.
+This is my very simple i3wm dotfiles, focusing on the arrangement of high-contrast colors---which I believe aren't appreciated enough. Vibrant scarlet set against a deep, cold dark-blue background... I just love it so much.
+
+By the way, It is hard coded for dual monitors, so please edit `./profile` and `./.config/i3/config` before applying this dotfiles on other systems.
 
 # Showcase
 
