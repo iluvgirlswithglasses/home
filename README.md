@@ -47,7 +47,9 @@ Icons credit goes to [Eliver Lara](https://github.com/EliverLara/candy-icons).
 
 Rofi credit goes to [Aditya Shakya](https://github.com/adi1090x/rofi).
 
-My nvim configuration is in [this repository](https://github.com/iluvgirlswithglasses/nvim). It use NvChad v2.0.
+My nvim configuration is in [this repository](https://github.com/iluvgirlswithglasses/nvim). It uses NvChad v2.0.
 
-My old rice for awesomewm on Arch: [https://github.com/iluvgirlswithglasses/arch-dots](https://github.com/iluvgirlswithglasses/arch-dots).
+My old rice for AwesomeWM on Arch: [https://github.com/iluvgirlswithglasses/arch-dots](https://github.com/iluvgirlswithglasses/arch-dots).
+
+I am planning to make another scarlet-themed rice for Hyprland. You can watch its progress [here](https://github.com/iluvgirlswithglasses/dotfiles-hyprland).
 
