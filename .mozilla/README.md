@@ -1,7 +1,13 @@
 
-# HOW TO USE
+# What is this?
 
-Search 'about:config' on Firefox's search bar and set the following properties:
+This guide explains how to customize firefox's private window greeting screen, as well as how to add local extensions. The result should look like this:
+
+![Firefox extensions](../showcase/4.png)
+
+# Firefox config
+
+Search 'about:config' on firefox's search bar and set the following properties:
 
 ```
 toolkit.legacyUserProfileCustomizations.stylesheets true
@@ -10,13 +16,19 @@ extensions.langpacks.signatures.required            false
 xpinstall.signatures.required                       false
 ```
 
-Then copy 'user-chrome/chrome' to your Firefox profile.
+# Customizing private window greeting screen
 
-Finally, add all '.zip' files as Firefox extensions in 'about:addons'. After that, you're all set.
+Firstly, navigate your firefox's profile directory. Mine look like this:
 
-# Note
+```
+/home/mika/.mozilla/firefox/ofqvdr63.default-esr
+```
 
-For a default Firefox experience (that is, keeping Firefox theme): Copy 'user-chrome/chrome' to your Firefox profile, then add 'blank-page.zip' as an extension.
+Then, depending on your preferences, copy either `./user-chrome/chrome` or `./user-chrome-for-sakura-theme/chrome` to the firefox's profile directory. The first option keeps the default firefox background color, while the second option offers a background as dark as you see in my showcases.
 
-Otherwise, for a "pinky" experience: Copy 'user-chrome-for-sakura-theme/chrome' to the Firefox profile, then add 'sakura-theme.zip' and 'blank-page-for-sakura-theme.zip' as extensions.
+# Adding the new tab extension
+
+Search 'about:addons' on firefox's search bar. From the drop-down menu next to the "Manage Your Extensions" title, click "Install Add-on From File."
+
+Then, you may install `./sakura-theme.zip` to get my firefox theme. Furthermore, you can install `./blank-page-for-sakura-theme.zip` for my homepage and newtab style (the one with a single clock).
 

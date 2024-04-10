@@ -3,7 +3,7 @@
 
 This is my very simple i3wm dotfiles, focusing on the arrangement of high-contrast colors---which I believe aren't appreciated enough. Vibrant scarlet set against a deep, cold dark-blue background... I just love it so much.
 
-By the way, It is hard coded for dual monitors, so please edit `./profile` and `./.config/i3/config` before applying this dotfiles on other systems.
+By the way, it is hard coded for dual monitors, so please edit `./profile` (line 8-9) and `./.config/i3/config` (line 126-135) before applying this dotfiles on other systems.
 
 # Showcase
 
@@ -43,5 +43,11 @@ That should be all.
 
 # Bonus
 
-Previous rice: [https://github.com/iluvgirlswithglasses/arch-dots](https://github.com/iluvgirlswithglasses/arch-dots)
+Icons credit goes to [Eliver Lara](https://github.com/EliverLara/candy-icons).
+
+Rofi credit goes to [Aditya Shakya](https://github.com/adi1090x/rofi).
+
+My nvim configuration is in [this repository](https://github.com/iluvgirlswithglasses/nvim). It use NvChad v2.0.
+
+My old rice for awesomewm on Arch: [https://github.com/iluvgirlswithglasses/arch-dots](https://github.com/iluvgirlswithglasses/arch-dots).
 
