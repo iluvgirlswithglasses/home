@@ -21,6 +21,20 @@ By the way, It is hard coded for dual monitors, so please edit `./profile` and `
 
 ![POV: Me 2 years ago](./showcase/6.png)
 
+# Color Palette
+
+|                         |                                                                    |
+| ----------------------- | ------------------------------------------------------------------ |
+| Primary Theme Color     | ![#F07489](https://placehold.co/12x12/f07489/f07489.png) `#F07489` |
+| Secondary Theme Color   | ![#B35766](https://placehold.co/12x12/b35766/b35766.png) `#B35766` |
+| Alternate Theme Color   | ![#F0C674](https://placehold.co/12x12/f0c674/f0c674.png) `#F0C674` |
+| Foreground Color        | ![#C5C8C6](https://placehold.co/12x12/c5c8c6/c5c8c6.png) `#C5C8C6` |
+| Background Color        | ![#050E14](https://placehold.co/12x12/050e14/050e14.png) `#050E14` |
+| Brighter Background     | ![#10151B](https://placehold.co/12x12/10151b/10151b.png) `#10151B` |
+| Highlighted Background  | ![#282A2E](https://placehold.co/12x12/282a2e/282a2e.png) `#282A2E` |
+
+This rice uses "Primary Theme Color" for scarlet foreground and "Secondary Theme Color" for scarlet background.
+
 # Installation
 
 Just copy everything in this repository to the home directory. Dependencies are:
