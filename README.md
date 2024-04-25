@@ -37,7 +37,27 @@ This rice uses "Primary Theme Color" for scarlet foreground and "Secondary Theme
 
 # Installation
 
-Just copy everything in this repository to the home directory. Dependencies are:
+The installation of this dotfiles consists of 3 steps:
+
+## Step 1: Clone
+
+You may clone this repository using:
+
+```sh
+git clone --depth 1 https://github.com/iluvgirlswithglasses/dotfiles
+```
+
+To also clone my fonts (and neovim config), use the following commands. If NerdFont is already installed on your machine, however, there's no need to execute them.
+
+```sh
+cd dotfiles
+git submodule init
+git submodule update
+```
+
+## Step 2: Copy Files
+
+Once you've done the previous step, just copy everything in this repository to the home directory. Dependencies are:
 
 ```sh
 sudo apt install kitty nvim i3 rofi polybar xsel compton gtk3-nocsd flameshot
@@ -46,6 +66,8 @@ sudo apt install kitty nvim i3 rofi polybar xsel compton gtk3-nocsd flameshot
 Additional dependencies:
 
 - [macchina](https://github.com/Macchina-CLI/macchina), whose executable file is also included here in `./.local/bin`
+
+## Step 3: Further customization
 
 It should be noted that firefox extensions and KDE themes won't install on their own. For the "pinky" theme as showcased:
 
@@ -63,7 +85,9 @@ Rofi credit goes to [Aditya Shakya](https://github.com/adi1090x/rofi).
 
 My nvim configuration is in [this repository](https://github.com/iluvgirlswithglasses/nvim). It uses NvChad v2.0.
 
-My old rice for AwesomeWM on Arch: [https://github.com/iluvgirlswithglasses/arch-dots](https://github.com/iluvgirlswithglasses/arch-dots).
+The tool I used for printing two lovey-dovey cats is [here](https://github.com/iluvgirlswithglasses/terminal-tools)
 
 I am planning to make another scarlet-themed rice for Hyprland. You can watch its progress [here](https://github.com/iluvgirlswithglasses/dotfiles-hyprland).
+
+My old rice for AwesomeWM on Arch: [https://github.com/iluvgirlswithglasses/arch-dots](https://github.com/iluvgirlswithglasses/arch-dots).
 
