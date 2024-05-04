@@ -34,8 +34,8 @@ exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
@@ -49,7 +49,10 @@ tiling_drag modifier titlebar
 # launchers
 bindsym $mod+Return exec kitty
 bindsym $mod+w exec firefox
-bindsym $mod+Shift+w exec /home/mika/r/appimg/waterfox/waterfox
+bindsym $mod+e exec dolphin
+bindsym $mod+Shift+w exec ~/r/appimg/waterfox/waterfox
+
+bindsym Print exec spectacle
 bindsym $mod+Shift+s exec --no-startup-id flameshot gui
 bindsym Shift+Print exec --no-startup-id flameshot full
 
@@ -151,7 +154,7 @@ bindsym $mod+Shift+0 move container to workspace 10; workspace 10
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
+bindsym $mod+Shift+r exec "polybar-msg cmd restart"; restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
@@ -189,7 +192,7 @@ bar {
 # ------------------------------------------------------------------ #
 exec polybar
 exec_always feh --bg-scale ~/.wallpapers/sakura--rchannel-boosted--1920-1080.png --bg-scale ~/.wallpapers/rose--colden--1080-1920.png
-exec_always compton -f -I 0.080 -O 0.080 --config /home/mika/.config/compton/compton.conf
+exec_always compton -f -I 0.080 -O 0.080 --vsync opengl
 
 
 # ------------------------------------------------------------------ #
@@ -204,4 +207,7 @@ default_floating_border none
 # gaps
 gaps inner 10
 gaps top -10
+
+# fucos on urgent windows
+for_window [urgent="latest"] focus
 

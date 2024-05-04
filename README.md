@@ -3,7 +3,7 @@
 
 This is my very simple i3wm dotfiles, focusing on the arrangement of high-contrast colors---which I believe aren't appreciated enough. Vibrant scarlet set against a deep, cold dark-blue background... I just love it so much.
 
-By the way, it is hard coded for dual monitors, so please edit `./profile` (line 8-9) and `./.config/i3/config` (line 126-135) before applying this dotfiles on other systems.
+By the way, this dotfiles is hard coded for dual monitors, so please edit `./profile` (line 8-9) and `./.config/i3/config` (line 126-135) before applying this dotfiles on other systems.
 
 # Showcase
 
@@ -85,9 +85,7 @@ Rofi credit goes to [Aditya Shakya](https://github.com/adi1090x/rofi).
 
 My nvim configuration is in [this repository](https://github.com/iluvgirlswithglasses/nvim). It uses NvChad v2.0.
 
-The tool I used for printing two lovey-dovey cats is [here](https://github.com/iluvgirlswithglasses/terminal-tools)
+The tool I used for printing two lovey-dovey cats is [here](https://github.com/iluvgirlswithglasses/terminal-tools).
 
 I am planning to make another scarlet-themed rice for Hyprland. You can watch its progress [here](https://github.com/iluvgirlswithglasses/dotfiles-hyprland).
-
-My old rice for AwesomeWM on Arch: [https://github.com/iluvgirlswithglasses/arch-dots](https://github.com/iluvgirlswithglasses/arch-dots).
 
