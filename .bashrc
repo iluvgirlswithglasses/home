@@ -3,8 +3,7 @@
 #### --------------------- system variables --------------------- ####
 ######################################################################
 
-export EXC=/home/mika/exc
-export PATH=$PATH:$EXC:/usr/sbin:/home/mika/.local/bin
+export PATH=$PATH:/usr/sbin:~/.local/bin
 
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
