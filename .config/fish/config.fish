@@ -22,7 +22,7 @@ alias vim="nvim"
 alias cin="cat"
 alias q="exit"
 alias :q="exit"
-alias clip="wl-copy"
+alias clip="xsel --clipboard"
 
 
 #######################################################################
@@ -41,7 +41,7 @@ function pullsh
 end
 
 function yd
-    pwd | wl-copy;
+    pwd | xsel --clipboard;
 end
 
 
